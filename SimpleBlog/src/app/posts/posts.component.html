@@ -1,0 +1,8 @@
+<div class="grid-container">
+  <mat-card *ngFor="let post of data" [id]="post.id">
+    <img [src]="imgLink" alt="">
+    <mat-card-title> {{post.title}} </mat-card-title>
+    <mat-card-content> {{post.body | truncate: 100}} </mat-card-content>
+    <a mat-flat-button color="accent" href="#">read more</a>
+  </mat-card>
+</div>

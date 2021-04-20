@@ -1,0 +1,16 @@
+:host {
+  display: block;
+  background-color: lightgrey;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+article {
+  background: mediumseagreen;
+  display: block;
+}
